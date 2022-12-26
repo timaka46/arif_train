@@ -23,7 +23,7 @@ while True:
         except:
             ndigits = {'xmult': 4, 'ymult': 3, 'xadd': 6, 'yadd': 5, 'zadd': 4, 'dadd': 2}
     elif num_mode =="end":
-        breakx
+        break
 
     game_mode=input('select mode:\n"1" - both multiplication and sum\n"2" - only multiplication\n"3" - only sum\n'
                     'You can also pause the game if you will write DURING the game "s" and by "g" continue it\n')
